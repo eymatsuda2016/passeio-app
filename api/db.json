@@ -1,9 +1,19 @@
 {
-    "categorias": [
-        {
-            "id": "1",
-            "nome": "Restaurantes" ,
-            "descricao": "Lugares para Alimentação"
-        }
-    ]
+  "categorias": [
+    {
+      "id": "2",
+      "nome": "Shopping",
+      "descricao": "Lugares aprazível para fazer compras, passear"
+    },
+    {
+      "id": "1",
+      "nome": "Restaurantes ",
+      "descricao": "Lugares para Alimentação"
+    },
+    {
+      "id": "3",
+      "nome": "Cinemas Dentro do Shopping",
+      "descricao": "Salas Confortáveis para assistir a um bom filme"
+    }
+  ]
 }

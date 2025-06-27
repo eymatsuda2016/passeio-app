@@ -26,7 +26,7 @@
             <p class="text-gray-600">Categoria: <span class="text-blue-600">{{ lugar.categoria }}</span></p>
             <p class="tetx-gray-700"> Localização:<span class="text-blue-800">{{lugar.localizacao}}</span></p>
             <div class="mt-2 flex item-center">
-                <span class="text-yellow-600"></span>
+                <span class="text-yellow-600" [innerHTML]="getTotalEstrelas(lugar)"></span>
                 <span class="ml-2 text-gray-700">{{ lugar.avaliacao }}</span>
             </div>
         </div>

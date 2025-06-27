@@ -14,6 +14,16 @@
       "id": "3",
       "nome": "Cinemas Dentro do Shopping",
       "descricao": "Salas Confortáveis para assistir a um bom filme"
+    },
+    {
+      "id": "095d",
+      "nome": "teste",
+      "descricao": "teste"
+    },
+    {
+      "id": "8ec3",
+      "nome": "teste 2",
+      "descricao": "teste 2"
     }
   ]
 }

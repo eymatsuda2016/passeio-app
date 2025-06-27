@@ -25,5 +25,15 @@
       "nome": "teste 2",
       "descricao": "teste 2"
     }
+  ],
+  "lugares": [
+    {
+      "id": "f5d1",
+      "nome": "Restaurante São Francisco",
+      "categoria": "Restaurantes ",
+      "localizacao": "Londrina",
+      "urlFoto": "teste",
+      "avaliacao": "4"
+    }
   ]
 }

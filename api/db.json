@@ -17,13 +17,18 @@
     },
     {
       "id": "095d",
-      "nome": "teste",
+      "nome": "Praias",
       "descricao": "teste"
     },
     {
       "id": "8ec3",
-      "nome": "teste 2",
+      "nome": "Parques",
       "descricao": "teste 2"
+    },
+    {
+      "id": "5",
+      "nome": "Praças",
+      "descricao": "Lugares para passear com a família"
     }
   ],
   "lugares": [
@@ -34,6 +39,30 @@
       "localizacao": "Londrina",
       "urlFoto": "teste",
       "avaliacao": "4"
+    },
+    {
+      "id": "15c7",
+      "nome": "Praia do Espelho",
+      "categoria": "Praias",
+      "localizacao": "Bahia",
+      "urlFoto": "https://www.melhoresdestinos.com.br/wp-content/uploads/2020/11/praia-do-espelho-capa2019-1536x805.jpg",
+      "avaliacao": "4"
+    },
+    {
+      "id": "3d15",
+      "nome": "Parque do Ibirapuera",
+      "categoria": "Parques",
+      "localizacao": "São Paulo",
+      "urlFoto": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqmI9IW7NzSSwcPhGGIfWkHgq7V6DsOJCM1XWvZaFTkfVFHRfJOlx89utceinW74Mi9tPnhLJU1sqTHIewCcfP5VN4LTLHFR9q4NwbpJoi5YcAZCX2TxhI16kndJhINUWQv1ajc=s680-w680-h510-rw",
+      "avaliacao": "5"
+    },
+    {
+      "id": "2341",
+      "nome": "Praça Tomi Nakagawa",
+      "categoria": "Praças",
+      "localizacao": "Londrina",
+      "urlFoto": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np7FmmHy_wPETTMgOzJQsiElFgV62YOKSvEH2qk5V3QZW2jZ03b-WcFvm1bcpffOtoZKek8CjZhGsX46ExmymAvUXUs0Stohry-r_LNP-2t9BeUWVjsBSqwncuyOLDz_Ieabl8o=s680-w680-h510-rw",
+      "avaliacao": "5"
     }
   ]
 }

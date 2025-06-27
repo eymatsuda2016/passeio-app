@@ -12,10 +12,13 @@
                 placeholder="Exemplo: Praia da Boa Viagem, Restaurante Estrêla do Mar"
                 class="w-full p-3 border border-gray-300 rounded-shadow-sm focus:ring focus:ring-blue-400"  
             />
+             <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('nome')">
+                Campo Obrigatorio
+            </span> 
         </div>
 
         <div class="mb-4">
-            <label for="nome" class="block  text-gray-600 font-medium mb-2">Categoria</label>
+            <label for="categoria" class="block  text-gray-600 font-medium mb-2">Categoria</label>
             <select
                 id="categoria"
                 name="categoria"
@@ -27,6 +30,9 @@
                 {{ cat.nome }}
             </option>    
             </select>
+             <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('categoria')">
+                Campo Obrigatorio
+            </span> 
         </div> 
         
         <div class="mb-4">
@@ -39,6 +45,9 @@
                 placeholder="Exemplo: São Paulo, Rio de Janeiro, Curitiba, Londrina"
                 class="w-full p-3 border border-gray-300 rounded-shadow-sm focus:ring focus:ring-blue-400"  
             />
+             <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('localizacao')">
+                Campo Obrigatorio
+            </span> 
         </div>
 
          <div class="mb-4">
@@ -51,6 +60,9 @@
                 placeholder="Exemplo: http://exemplo.com/foto.jpg"
                 class="w-full p-3 border border-gray-300 rounded-shadow-sm focus:ring focus:ring-blue-400"  
             />
+             <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('urlFoto')">
+                Campo Obrigatorio
+            </span> 
         </div>
         
                 <div class="mb-4">
@@ -68,6 +80,9 @@
                 <option [value]="4">4 - Muito Bom</option>
                 <option [value]="5">5 - Excelente</option>    
              </select>
+              <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('avaliacao')">
+                Campo Obrigatorio
+            </span> 
         </div> 
 
         <button type="submit" 
